@@ -1,0 +1,52 @@
+
+body {
+	padding-top: 40px;
+	background: #eaeaea;
+	border-top: 4px solid #079DBD;
+	font: 16px/1.6 'Lora', serif;
+	color: #363636;
+}
+
+a {
+	color: #079DBD;
+	text-decoration: none;
+	transition: all 0.2s ease;
+}
+a:hover {
+	color: #056791;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: : 'roboto slab', sans-serif;
+	font-weight: 400;
+}
+
+
+.wadah {
+	width: 80%;
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.post {
+	margin-bottom: 20px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
+.post .title {
+	margin: 0;
+	padding: 10px;
+	padding-left: 16px;
+	background: #f5f5f5;
+	border-left: 4px solid #079DBD;
+}
+.post .konten {
+	padding: 10px;
+}
+
+.post .info{
+	padding: 20px;
+	background: #f5f5f5;
+	font-style: italic;
+	font-size: 14px;
+}
