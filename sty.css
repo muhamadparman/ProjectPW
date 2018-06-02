@@ -1,28 +1,11 @@
-.header{
-	background: grey;
-}
-.header h1{
-	font-size: 25px;
-	margin-top: 30px;
-	width: 400px;
-	text-align: right;
-	float: right;
-	padding: 10px 10px 10px 0;
-	font-family: arial;
-	background: silver;
-	border-top-left-radius:15px;
-	border-bottom-left-radius: 15px;
-}
-.header h1 small{
-	font-size: 12px;
-	font-style: oblique;
-}
+
 .menu{
 
-	font-size: 16px;
-	border-top:5px solid #dd6600;
-	background-color: silver;
-	text-align: center; 
+	font-size: 18px;
+	background-color: #FFA500;
+	text-align: center;
+	padding-top: 20px;
+
 }
 .menu ul li{
 	margin: 90px;
@@ -42,14 +25,6 @@
 	background-color: #ddd;
 	padding:10px;
 }
-.c1{
-	float: left;
-	margin-right: 10px;
-	width: 280px;
-	height: 280px;
-	background-color: grey;
-}
-
 .carousel1 .carousel-inner{
 	height: 400px;
 }
@@ -61,7 +36,7 @@
 }
 .navbar-brand i {
 	font-size: 25px;
-	font-family: georgia;
+	font-family: italic;
 	
 }
 .fontnav{
@@ -69,6 +44,10 @@
 	font-family: georgia;
 	color: black;
 }
-body{
-	background-color: silver;
+body {
+	background-image: url("bacgroun-meal.jpg");
+}
+.categori{
+	width: 400px;
+	height: 200px
 }

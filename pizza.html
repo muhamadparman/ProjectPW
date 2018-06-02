@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="sty.css">
+  	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/class/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+	<title></title>
+</head>
+<body>
+		<!--navigasi-->
+	<nav class="navbar navbar-light bg-warning  navbar-fixed-top">
+ 		<a class="navbar-brand" href="#">
+    	<img src="image/logo3.png" width="30" height="30" class="d-inline-block align-top" alt="FoodBlog">
+   		<i>FOODBLOG</i>
+  		</a>
+  		<ul class="nav nav-pills">
+  			<li class="nav-item">
+   				 <a href="#!" class="nav-link fontnav" href="#"><i class="fas fa-home"></i> Home</a>
+ 			</li>
+ 			 <li class="nav-item">
+   				 <a href="#!about" class="nav-link fontnav" href="#"><i class="fas fa-book"></i> About</a>
+  			</li>
+  			<li class="nav-item">
+   				 <a href="#!contact" class="nav-link fontnav" href="#"><i class="fas fa-address-book"></i> Contact</a>
+  			</li>
+  			</ul>
+  	<form class="form-inline">
+    	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+   		 <button class="btn btn-light" type="submit">Search
+   		 </button>
+ 	 </form>
+	</nav>	
+<!--navigasi akhir-->
+
+	<div id="carouselExampleIndicators" class="carousel slide carousel1" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="/food/"><img class="d-block w-100" src="image/meal/banner3.jpg" alt="Pizza"></a>
+    </div>
+    <div class="carousel-item">
+     <a href="/food/"> <img class="d-block w-100" src="image/meal/banner.jpg" alt="Hotdog"></a>
+    </div>
+    <div class="carousel-item">
+      <a href="/food/"><img class="d-block w-100" src="image/meal/banner2.jpg" alt="Juice"></a>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="container">
+  	<div class="row">
+		<div class="col-md-12">
+			<h1 style="text-align: center;">Pilih menu kesukaan anda dan pesan sekarang!</h1>
+		</div>
+	</div>
+</div>
+
+<!--grid-->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" >
+	  <a href=""><img class="card-img-top" src="image/pizza/black-meat-monsta.jpg" alt="Card image cap"></a>
+		  <div class="card-body fontku">
+		    <h5 class="card-title">Black Meat Monsta</h5>
+		    <h6>Rp. 70.000</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="btn btn-warning">View More</a>
+	  	  </div>
+	  </div>
+  	</div>
+
+    <div class="col-md-4">
+     <div class="card" >
+	       <a href=""> <img class="card-img-top" src="image/pizza/beef-paprika.jpg" alt="Card image cap"></a>
+		  <div class="card-body fontku">
+		    <h5 class="card-title">Beef Paprika and Onion</h5>
+		    <h6>Rp. 65.000</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="btn btn-warning">View More</a>
+		  </div>
+	  </div>
+    </div>
+
+     <div class="col-md-4">
+     <div class="card" >
+	  <a href=""><img class="card-img-top" src="image/pizza/cheese-beef.jpg" alt="Card image cap"></a>
+		  <div class="card-body fontku">
+		    <h5 class="card-title">Beef Cheese Pizza</h5>
+		    <h6>Rp. 70.000</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="btn btn-warning">View More</a>
+		  </div>
+	  </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card" >
+	  <a href=""><img class="card-img-top" src="image/pizza/salmon-pizza.jpg" alt="Card image cap"></a>
+		  <div class="card-body fontku">
+		    <h5 class="card-title">Pizza Salmon Special</h5>
+		    <h6>Rp. 85.000</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="btn btn-warning">View More</a>
+	  	  </div>
+	  </div>
+  	</div>
+
+    <div class="col-md-4">
+     <div class="card" >
+	       <a href=""> <img class="card-img-top" src="image/pizza/chese-smoked.jpg" alt="Card image cap"></a>
+		  <div class="card-body fontku">
+		    <h5 class="card-title">Smooked Beef Cheese Extra</h5>
+		    <h6>Rp. 85.000</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="btn btn-warning">View More</a>
+		  </div>
+	  </div>
+    </div>
+
+     <div class="col-md-4">
+     <div class="card" >
+	  <a href=""><img class="card-img-top" src="image/pizza/mushrom-parsley.jpg" alt="Card image cap"></a>
+		  <div class="card-body fontku">
+		    <h5 class="card-title">Mushrom and Parsley</h5>
+		    <h6>Rp. 65.000</h6>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+		    <a href="#" class="btn btn-warning">View More</a>
+		  </div>
+	  </div>
+    </div>
+  </div>
+ </div>
+
+</body>
+</html>
