@@ -1,0 +1,137 @@
+@media screen and (max-width:768px){
+	.content{
+		width: 90%;
+	}
+	section{
+		height: auto;
+	}
+	.title{
+		font-size: 30px;
+	}
+
+	.bg-fix{
+		height: 100%;
+	}
+
+	/*menu*/
+	.menu{
+		width: 50%;
+	}
+
+	/*header*/
+	header{
+		position: fixed;
+		background-color: #222222;
+	}
+
+	/*home*/
+	.home{
+		margin-top: 60px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.down{
+		display: none;
+	}
+
+	/*map*/
+	.map{
+		padding-top: 0vh;
+		padding-bottom: 20px;
+	}
+	.img{
+		margin-top: 0px;
+	}
+
+	/*about*/
+	.about{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.about .title{
+		margin-top: 0px;
+	}
+	.slide{
+		margin-top: 10px;
+		height: auto;
+	}
+	.col-3{
+		height: 100px;
+	}
+	.dot{
+		display: none;
+	}
+
+	/*search*/
+	.search{
+		padding-top: 0;
+	}
+	.form-search{
+		margin-bottom: 40px;
+	}
+	footer{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+	}
+
+	/*portofolio*/
+	.portofolio{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.portofolio .col-3{
+		height: 150px;
+	}
+	.sc-pt{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.btn-lm{
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width:478px){
+	/*menu*/
+	.menu{
+		width: 70%;
+	}
+
+	/*about*/
+	.about .title{
+		text-align: center;
+	}
+	.pic{
+		display: none;
+	}
+	.col-6{
+		width: 100%;
+	}
+
+	/*search*/
+	table{
+		width: 90%;
+	}
+	.td-st{
+		width: 80%;
+	}
+	.td-nd{
+		width: 20%;
+	}
+
+	/*portofolio*/
+	.portofolio .col-3{
+		width: 100%;
+		height: 200px;
+	}
+	.portofolio{
+		padding-top: 20px;
+		padding-bottom: 40px;
+	}
+	.btn-lm{
+		margin-top: 20px;
+		padding: 10px;
+		width: 70%;
+	}
+}
