@@ -96,7 +96,11 @@ footer .fa {
 
 
 .map {
-    background-color: #ED5564;
+    background-color: #FF6347;
+    padding-top: 7vh;
+}
+.map2 {
+    background-color: orange;
     padding-top: 7vh;
 }
 

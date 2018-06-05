@@ -25,20 +25,20 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-    <title>Hello, world!</title>
+    <title>FOODiest | Find Your Favorite Foods</title>
 </head>
 
 <body ng-app="myApp">
 
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
+    <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+        <a class="navbar-brand" href="#!">FOODiest</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">menu <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#!menu">Features</a>
+                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#!menu">Menu</a>
                 <a class="nav-item nav-link" href="#!about">about</a>
 
             </div>
@@ -54,10 +54,10 @@
                     templateUrl: "index.htm"
                 })
                 .when("/menu", {
-                    templateUrl: "index2.htm"
+                    templateUrl: "menu.htm"
                 })
                 .when("/about", {
-                    templateUrl: "index3.htm"
+                    templateUrl: "about.htm"
                 });
         });
 
@@ -75,7 +75,7 @@
 
             <div class="col-sm-4">
                 <h3>Contact</h3>
-                <a href="#" class="fa fa-facebook"></a>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
                 <a href="#" class="fa fa-twitter"></a>
                 <a href="#" class="fa fa-google"></a>
                 <a href="#" class="fa fa-linkedin"></a>
