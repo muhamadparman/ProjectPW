@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FOODiest | Get Your Best Food</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="font/typicons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+</head>
+
+<body ng-app="myApp">
+
+    <section class="screen hide fix">
+        <div class="menu">
+            <div class="content" style="width: 90%;">
+                <!-- <a href="javascript:void(0)" class="right close" id="close">&times;</a> -->
+                <br>
+                <ul>
+                    <a href="#!">
+                        <li>Home</li>
+                    </a>
+                    <a href="#!portofolio">
+                        <li>Portofolio</li>
+                    </a>
+                    <a href="#!test">
+                        <li>Test</li>
+                    </a>
+                    <a href="portofolio.html">
+                        <li>People</li>
+                    </a>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <header class="left cc">
+        <div class="content">
+            <a href="" class="left logo">
+				FOODiest
+			</a>
+            <a href="javascript:void(0)" class="right show">
+				<span class="typcn typcn-th-menu"></span>
+			</a>
+        </div>
+    </header>
+
+    <div class="banner wrap">
+        <div class="screen sc-pt">
+            <h3 class="title">
+                <center>
+                    Choose your best food!
+                </center>
+            </h3>
+        </div>
+    </div>
+
+  <div ng-view></div>
+
+    <script>
+        var app = angular.module("myApp", ["ngRoute"]);
+        app.config(function($routeProvider) {
+            $routeProvider
+        .when("/", {
+            templateUrl : "main.htm"
+        })
+        .when("/portofolio", {
+            templateUrl : "port.htm"
+        })
+        .when("/test", {
+            templateUrl :"test.htm"
+        });
+    });
+    </script>
+
+    <footer class="footer">
+        <center>
+            <a href=""><span class="typcn typcn-social-facebook"></span></a>
+            <a href=""><span class="typcn typcn-social-twitter second"></span></a>
+            <a href=""><span class="typcn typcn-social-instagram"></span></a><br> &copy; 2018
+        </center>
+    </footer>
+
+
+</body>
+
+</html>
