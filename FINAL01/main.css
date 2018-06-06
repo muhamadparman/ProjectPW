@@ -99,6 +99,7 @@ footer .fa {
     background-color: #FF6347;
     padding-top: 7vh;
 }
+
 .map2 {
     background-color: orange;
     padding-top: 7vh;
@@ -129,4 +130,8 @@ iframe {
 
 #hai {
     background-color: white;
+}
+
+#ket {
+    font-family: cursive;
 }
