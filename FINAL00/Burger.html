@@ -62,6 +62,12 @@
     </div>
 </section>
 
+<script>
+    app.controller("burgerCtrl", function($scope, $http){$http.get('https://api.myjson.com/bins/kdjpu')
+    .then(function(result)
+        $scope.foods = result.data.food[0]
+    });
+</script>
 
 
 <section id="apa" style="padding-top: 5px">
