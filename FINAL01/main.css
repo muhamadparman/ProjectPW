@@ -88,11 +88,7 @@ footer .fa {
     text-decoration: none;
 }
 
-.col-sm-4 {
-    margin-top: 30px;
-    left: 30%;
-    position: relative;
-}
+
 
 
 .map {
@@ -134,4 +130,20 @@ iframe {
 
 #ket {
     font-family: cursive;
+}
+
+
+#ml {
+    padding-top: 30px;
+    font-size: 90px;
+
+}
+
+#ht {
+    padding-top: 100px;
+}
+
+iframe {
+    padding: 3em;
+
 }
