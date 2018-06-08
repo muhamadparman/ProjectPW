@@ -38,8 +38,8 @@
   </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#!about">about</a>
+                <a class="nav-item nav-link active" href="#!">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="about.html">about</a>
 
             </div>
         </div>
@@ -148,6 +148,11 @@
 
          app.controller("burgerCtrl", function($scope, $http) {
 $http.get('https://api.myjson.com/bins/dyjcy')
+       .then(function(result){
+          $scope.datas = result.data.burgers;                
+        });
+              app.controller("pizzaCtrl", function($scope, $http) {
+        $http.get('https://api.myjson.com/bins/6qcui')
        .then(function(result){
           $scope.datas = result.data.burgers;                
         });
