@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+       #map {
+        height: 300px;
+        border: 3px
+       }
+       #cs{
+        font-family: verdana;
+        color: white;
+       }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    <title>FOODiest | Find Your Favorite Foods</title>
+</head>
+
+<body ng-app="myApp">
+
+    <nav class="navbar navbar-dark bg-dark navbar-fixed-top">
+        <a class="navbar-brand" href="main.html">FOODiest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="main.html">Home<span class="sr-only"></span></a>
+                <a class="nav-item nav-link" href="about.html">about</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="map">
+    <div class="content container-fluid">
+        <div class="row">
+        <div class="col-md-12">
+        <center>
+            <br><h1 class="title">FOODiest</h1><hr>
+        <img class="img" src="image/meal/banner3.jpg"><br>
+        <br><p>A foodie is ardent or refined interest in food and who eats food not out of hunger but due to their interest or hobby .[1] The terms "gastronome", "gourmand" and "epicure" define the same thing, i.e. a person who enjoys food for pleasure.</p>
+        <p>The "foodie"—not as elitist as a gourmet, more discriminating than a glutton—was first named in print in the early 1980s. The term came into use almost simultaneously in the United States and Britain. Priority goes to Gael Greene, who, in June 1980, wrote in New York Magazine of a character who "slips into the small Art Deco dining room of Restaurant d'Olympe ... to graze cheeks with her devotees, serious foodies."[2] Immediately afterwards the foodie was defined in the British press. Ann Barr, features editor of the London magazine Harper's & Queen, had asked readers to comment on a then-new obsession with food. Several readers' responses named Paul Levy, food writer on the same magazine, as the perfect example. Levy played along,[3] contributing an anonymous article in August 1982, defining the term ("Foodies are foodist. They dislike and despise all non-foodies")[4] and characterizing himself as the "ghastly, his-stomach-is-bigger-than-his-eyes, original, appetite-unsuppressed, lip-smacking 'king foodie'".[3] The word gained currency rapidly, partly because Barr and Levy followed up with a book, The Official Foodie Handbook, published in 1984.[5] </p>
+
+        <p>Pursuits
+        Foodies are a distinct hobbyist group. Typical foodie interests and activities include the food industry, wineries and wine tasting, breweries and beer sampling, food science, following restaurant openings and closings and occasionally reopenings, food distribution, food fads, health and nutrition, cooking classes, culinary tourism, and restaurant management. A foodie might develop a particular interest in a specific item, such as the best egg cream or burrito. Many publications have food columns that cater to foodies and many of the websites carrying the name foodie have become popular amongst the foodies.[6] Interest by foodies in the 1980s and 1990s gave rise to the Food Network and other specialized food programming, popular films and television shows about food such as Top Chef and Iron Chef, a renaissance in specialized cookbooks, specialized periodicals such as Gourmet Magazine and Cook's Illustrated, growing popularity of farmers' markets,[7] food-oriented websites like Zagat's and Yelp, publishing and reading food blogs like Foodbeast and foodieworld, specialized kitchenware stores like Williams-Sonoma and Sur La Table, and the institution of the celebrity chef.</p>
+
+        <p>Foodies have a significant social media presence; food lovers have created their own YouTube channels where they show what they cook and where they eat around the world.[8] It has also become a common practice to take photos of food and beverages consumed at home or outside and share them on Facebook, Twitter, Instagram, or other media in a form of food porn.[9]</p>
+    </center>
+    </div>
+    </div>
+    </div>
+</section>
+
+</section>
+
+    <footer class="conteiner">
+        <div class="row">
+            <div class="col-md-4" style="text-align: center;"><br><br><br>
+                <h3 style="color: white">The FOODiest</h3><br>
+                <h5 style="color: white">Contact Us<br>Telp: 087728977720</h5><br>
+
+                <h6 style="color: white">Stay Coonected With : </h6>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+
+             <div class="col-md-4" style="text-align: center;">
+                <br>
+                <h2 style="color: white">Find Us in Location:</h2>
+            <div id="map" class="img-tumbnail"></div><br>
+            </div>
+
+            <div class="col-md-4" style="text-align: center;"><br><br><br>
+                <h5 style="color: white">Yogyakarta, Sleman <br>55282</h5><br><br>
+                <h4 style="color: white">HOURS<br>
+                Open 7 Days<br>7am — 7pm<br><br></h4>
+                <h6 id="cs">Customerservice@foodiest.com</h6>
+            </div>
+        </div>
+    </footer>
+    <script>
+      function initMap() {
+        var uluru = {lat: -7.737630, lng: 110.420529};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 17,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYTyY2QP4RTUvQpOkBso9Qs8wX3d1Swkg&callback=initMap">
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+
+</html>

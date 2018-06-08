@@ -1,0 +1,18 @@
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<section id="apa" style="padding-top: 5px">
+    <div class="container home">
+    <div class="row" ng-controller="pizzaCtrl">
+        <div class="col-md-4" ng-repeat="x in pizzas">
+            <img ng-src="{{x.thumbURL}}" class="img-thumbnail">
+
+                <div class="card-title text-center">
+                    <h5>{{x.name}}</h5>
+                    <h4>{{x.price}}</h4>
+                </div>
+        </div>
+
+    </div>
+    </div>
+</section>
+
